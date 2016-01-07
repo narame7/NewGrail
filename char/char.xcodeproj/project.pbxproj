@@ -1,0 +1,150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		60235B2B1C2C49D600963D4C /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		60235B2C1C2C49D600963D4C /* dosnames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dosnames.h; sourceTree = "<group>"; };
+		60235B2D1C2C49D600963D4C /* grail.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grail.cpp; sourceTree = "<group>"; };
+		60235B2E1C2C49D600963D4C /* grail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grail.h; sourceTree = "<group>"; };
+		60235B2F1C2C49D600963D4C /* GrailVersion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GrailVersion.txt; sourceTree = "<group>"; };
+		60235B301C2C49D600963D4C /* include.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = include.h; sourceTree = "<group>"; };
+		60235B311C2C49D600963D4C /* lexical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lexical.h; sourceTree = "<group>"; };
+		60235B331C2C49D600963D4C /* names.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = names.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		60235B251C2C49D600963D4C = {
+			isa = PBXGroup;
+			children = (
+				60235B2B1C2C49D600963D4C /* .DS_Store */,
+				60235B2C1C2C49D600963D4C /* dosnames.h */,
+				60235B2D1C2C49D600963D4C /* grail.cpp */,
+				60235B2E1C2C49D600963D4C /* grail.h */,
+				60235B2F1C2C49D600963D4C /* GrailVersion.txt */,
+				60235B301C2C49D600963D4C /* include.h */,
+				60235B311C2C49D600963D4C /* lexical.h */,
+				60235B331C2C49D600963D4C /* names.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		60235B2A1C2C49D600963D4C /* char */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 60235B341C2C49D600963D4C /* Build configuration list for PBXLegacyTarget "char" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/KSK/Downloads/Grail/char;
+			dependencies = (
+			);
+			name = char;
+			passBuildSettingsInEnvironment = 1;
+			productName = char;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		60235B261C2C49D600963D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 60235B291C2C49D600963D4C /* Build configuration list for PBXProject "char" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60235B251C2C49D600963D4C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60235B2A1C2C49D600963D4C /* char */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		60235B271C2C49D600963D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		60235B281C2C49D600963D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		60235B351C2C49D600963D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = char.temp_caseinsensitive_rename;
+			};
+			name = Debug;
+		};
+		60235B361C2C49D600963D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = char.temp_caseinsensitive_rename;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60235B291C2C49D600963D4C /* Build configuration list for PBXProject "char" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60235B271C2C49D600963D4C /* Debug */,
+				60235B281C2C49D600963D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60235B341C2C49D600963D4C /* Build configuration list for PBXLegacyTarget "char" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60235B351C2C49D600963D4C /* Debug */,
+				60235B361C2C49D600963D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60235B261C2C49D600963D4C /* Project object */;
+}

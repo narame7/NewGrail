@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "grail::symbol_exp&lt;char&gt;::operator==(grail::subexp&lt;char&gt; const*) const:re.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "content">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "grail::re&lt;char&gt;::minimize() [inlined]:min.src">
+      </ContextState>
+      <ContextState
+         contextName = "grail::plus_exp&lt;char&gt;::minimize():min.src">
+         <PersistentStrings>
+            <PersistentString
+               value = "nex_exp.p">
+            </PersistentString>
+            <PersistentString
+               value = "union_set[1]">
+            </PersistentString>
+            <PersistentString
+               value = "union_set.size()">
+            </PersistentString>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+            <PersistentString
+               value = "union_set[0] == union_set[2]">
+            </PersistentString>
+            <PersistentString
+               value = "union_set[2] == union_set[4]">
+            </PersistentString>
+            <PersistentString
+               value = "union_set[0]">
+            </PersistentString>
+            <PersistentString
+               value = "union_set[2]">
+            </PersistentString>
+            <PersistentString
+               value = "union_set[4]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "grail::re&lt;char&gt;::operator=(grail::subexp&lt;char&gt; const&amp;):assign.src">
+         <PersistentStrings>
+            <PersistentString
+               value = "p == 0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
